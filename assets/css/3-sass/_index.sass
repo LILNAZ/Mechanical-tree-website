@@ -13,6 +13,7 @@ header
 			color: $link-color
 			display: inline-block
 			margin-left: 20px
+			font-size: 16px
 
 		a:hover, a:focus
 			color: lighten($link-color, 20%)
@@ -39,12 +40,40 @@ header
 		color: white
 		line-height: 1
 
+.game-warp
+
+
+	.game-left
+		float: left
+		max-width: 350px
+		max-height: 800px
+		margin-left: 200px
+
+		img
+			max-width: 350px
+
+	.game-right
+		float: right
+		max-width: 350px
+		max-height: 800px
+		margin-right: 200px
+		background-color: pink
+
+		img
+			max-width: 350px
+
+
+
+
 @media screen and (max-width: 640px)
 	header
 		nav
 			float: none
 			text-align: center
 			padding-top: 90px
+
+			a
+				font-size: 18px
 
 		h1
 			padding-top: 0px
