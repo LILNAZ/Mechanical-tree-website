@@ -87,4 +87,207 @@ body {
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%; }
 
+header {
+  background-image: url("/assets/image/Hero.jpg");
+  background-size: cover;
+  background-position: 50% 50%;
+  padding-bottom: 50px; }
+  header nav {
+    float: right;
+    padding: 30px 30px 0 0; }
+    header nav a {
+      color: #c0392b;
+      display: inline-block;
+      margin-left: 20px;
+      font-size: 16px; }
+    header nav a:hover, header nav a:focus {
+      color: #df7c72; }
+  header h1 {
+    text-align: center;
+    font-size: 72px;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 20px;
+    clear: both;
+    padding-top: 100px; }
+    header h1 span {
+      display: inline-block;
+      padding: 0.2em 0.5em;
+      border: white solid 10px; }
+  header .kicker {
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: white;
+    line-height: 1; }
+
+.game-warp {
+  width: 100%;
+  display: inline-block;
+  background: #95a5a6; }
+  .game-warp h1 {
+    padding-top: 20px;
+    margin-top: 0; }
+  .game-warp .game-left {
+    float: left;
+    max-width: 350px;
+    max-height: 800px;
+    margin-left: 200px; }
+    .game-warp .game-left img {
+      max-width: 350px; }
+  .game-warp .game-right {
+    float: right;
+    max-width: 350px;
+    max-height: 800px;
+    margin-right: 200px; }
+    .game-warp .game-right img {
+      max-width: 350px; }
+
+.about-warp {
+  width: 100%;
+  display: inline-block;
+  background: #ecf0f1;
+  margin: 0, auto;
+  text-align: center; }
+  .about-warp .about-wrap-with {
+    width: 70%;
+    display: block;
+    margin: 0 auto; }
+    .about-warp .about-wrap-with h1 {
+      padding-top: 20px;
+      margin-top: 0; }
+    .about-warp .about-wrap-with .about-left {
+      max-width: 500px;
+      max-height: 800px;
+      display: inline-block;
+      float: left; }
+      .about-warp .about-wrap-with .about-left p {
+        text-align: left;
+        max-width: 500px;
+        max-height: 800px; }
+    .about-warp .about-wrap-with .about-right {
+      max-width: 250px;
+      max-height: 800px;
+      display: inline-block; }
+      .about-warp .about-wrap-with .about-right .name-wrap {
+        float: left;
+        margin: 20px 0;
+        max-width: 350px; }
+        .about-warp .about-wrap-with .about-right .name-wrap img {
+          display: inline-block;
+          max-width: 100px;
+          max-height: 100px;
+          float: left;
+          border-radius: 50%; }
+        .about-warp .about-wrap-with .about-right .name-wrap p {
+          float: right;
+          margin-left: 5px; }
+
+.dev-warp {
+  width: 100%;
+  display: inline-block;
+  background: #95a5a6; }
+  .dev-warp h1 {
+    padding-top: 20px;
+    margin-top: 0; }
+  .dev-warp .dev-left {
+    float: left;
+    max-width: 350px;
+    max-height: 800px;
+    margin-left: 200px; }
+    .dev-warp .dev-left .post {
+      margin: 0;
+      padding: 0; }
+    .dev-warp .dev-left img {
+      max-width: 350px; }
+    .dev-warp .dev-left p {
+      margin-bottom: 20px; }
+  .dev-warp .dev-right {
+    float: right;
+    max-width: 350px;
+    max-height: 800px;
+    margin-right: 200px; }
+    .dev-warp .dev-right .post {
+      margin: 0;
+      padding: 0; }
+    .dev-warp .dev-right img {
+      max-width: 350px; }
+    .dev-warp .dev-right p {
+      margin-bottom: 40px; }
+
+footer {
+  background-image: url("/assets/image/Hero.jpg");
+  background-size: cover;
+  background-position: 50% 50%;
+  padding-bottom: 50px; }
+  footer nav {
+    float: right;
+    padding: 30px 30px 0 0; }
+    footer nav a {
+      color: #c0392b;
+      display: inline-block;
+      margin-left: 20px;
+      font-size: 16px; }
+    footer nav a:hover, footer nav a:focus {
+      color: #df7c72; }
+  footer h1 {
+    text-align: center;
+    font-size: 42px;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 20px;
+    clear: both; }
+    footer h1 span {
+      display: inline-block;
+      padding: 0.2em 0.5em;
+      border: white solid 10px; }
+
+@media screen and (max-width: 640px) {
+  header nav {
+    float: none;
+    text-align: center;
+    padding-top: 90px; }
+    header nav a {
+      font-size: 18px; }
+  header h1 {
+    padding-top: 0px;
+    font-size: 42px; }
+
+  .game-warp .game-left {
+    float: none;
+    margin-left: 0;
+    width: 100%; }
+  .game-warp p {
+    margin: 10px 50px; }
+  .game-warp .game-right {
+    float: none;
+    width: 100%;
+    margin-right: 0; }
+  .game-warp p {
+    margin: 10px 50px; }
+
+  .dev-warp .dev-left {
+    float: none;
+    width: 100%;
+    margin-left: 0;
+    max-height: 1200px; }
+  .dev-warp p {
+    margin: 10px 50px; }
+  .dev-warp .post {
+    color: #c0392b;
+    text-align: center; }
+  .dev-warp .dev-right {
+    float: none;
+    width: 100%;
+    margin-right: 0;
+    max-height: 1200px; }
+  .dev-warp p {
+    margin: 10px 50px; }
+  .dev-warp .post {
+    color: #c0392b;
+    text-align: center; } }
+
 /*# sourceMappingURL=main.css.map */
