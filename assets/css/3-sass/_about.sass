@@ -2,78 +2,113 @@
 	background: $bg-color-3
 	width: 100%
 	display: inline-block
-	height: 100%
 
 	h1
 		padding-top: 20px
 		margin-top: 0
 
-	img
-		display: inline-block
-		max-width: 100px
-		max-height: 100px
-		float: left
-		border-radius: 50%
-
 	.aboutus-left
 		float: left
 		margin-left: 100px
+		width: 450px
 
+		.aboutus-headshot
+			max-width: 450px
 
-	.aboutus1
-		max-width: 450px
-
-	.aboutus2
-		max-width: 450px
+			img
+				display: inline-block
+				max-width: 100px
+				max-height: 100px
+				float: left
+				border-radius: 50%
+			p
+				max-width: 400px
 
 	.aboutus-right
 		float: right
 		margin-right: 100px
 		width: 450px
 
+		.aboutus-headshot
+			max-width: 450px
+
+			img
+				display: inline-block
+				max-width: 100px
+				max-height: 100px
+				float: left
+				border-radius: 50%
+
 .aboutgame-wrap
 	background: $bg-color-1
 	width: 100%
 	display: inline-block
-	height: 100%
+
+	h1
+		padding-top: 20px
+		margin-top: 0
 
 	.aboutgame-div1
 		margin-top: 30px
 		margin-bottom: 30px
 		width: 100%
-		margin-left: 100px
 		display: inline-block
+
+		img
+			max-height: 250px
+			float: left
 
 	.aboutgametext1
 		float: right
 		max-width: 700px
 		margin-right: 180px
 
-	h1
-		padding-top: 20px
-		margin-top: 0
-
-	img
-		max-height: 250px
-		float: left
-
-
-	p
-		@include word-wrap(normal)
+		img
+			max-height: 250px
+			float: left
 
 	.aboutgametext2
 		float: right
 		max-width: 700px
 		margin-right: 180px
 
-	h1
-		padding-top: 20px
-		margin-top: 0
+@media screen and (max-width: 1120px)
 
-	img
-		max-height: 250px
-		float: left
+	.aboutus-wrap
+		.aboutus-left
+			float: none
+			margin: 0 auto
 
-	p
-		@include word-wrap(normal)
+			p
+				max-width: 350px
 
+		.aboutus-right
+			float: none
+			margin: 0 auto
+
+			p
+				max-width: 350px
+
+	.aboutgame-wrap
+
+		.aboutgame-div1
+			margin-left: 0
+
+			img
+				margin: 0 auto
+				max-height: 150px
+				float: none
+
+		.aboutgametext1
+			float: none
+			margin-right: 0
+
+			img
+				margin: 0 auto
+				max-height: 150px
+				float: none
+
+		.aboutgametext2
+			float: none
+			max-width: 700px
+			margin-right: 0
