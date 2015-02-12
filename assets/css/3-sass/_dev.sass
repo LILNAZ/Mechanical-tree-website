@@ -1,0 +1,62 @@
+.post-one
+	background: $bg-color-2
+
+.post-two
+	background: $bg-color-3
+
+.dev-post
+	width: 100%
+	height: 500px
+
+	.dev-wraper
+		max-width: 800px
+		margin: 0 auto
+
+		h2
+			padding-top: 10px
+			margin-top: 0
+
+
+
+		.dev-post-right
+			max-width: 400px
+			float: left
+
+		.dev-post-left
+			max-width: 400px
+			float: left
+
+			img
+				max-width: 380px
+
+@media screen and (max-width: 800px)
+	.dev-post
+		height: auto
+
+		.dev-wraper
+			max-width: 750px
+			margin: 0 auto
+
+			h2
+				text-align: center
+			h3
+				text-align: center
+
+			.dev-post-right
+				max-width: 750px
+				float: none
+
+				p
+					max-width: 500px
+					margin: 0 auto
+
+
+			.dev-post-left
+				max-width: 750px
+				float: none
+
+				img
+					margin:  0 auto
+					width: 100%
+					display: block
+					padding-bottom: 30px
