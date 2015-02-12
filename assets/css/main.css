@@ -226,6 +226,7 @@ body {
           float: left;
           border-radius: 50%; }
         .about-warp .about-wrap-with .about-right .name-wrap p {
+          /*fix IE */
           float: right;
           margin-left: 5px; }
 
@@ -290,6 +291,16 @@ footer {
       padding: 0.2em 0.5em;
       border: white solid 10px; }
 
+@media screen and (max-width: 1118px) {
+  .game-warp .game-left {
+    margin-left: 50px; }
+  .game-warp .game-right {
+    margin-right: 50px; }
+
+  .dev-warp .dev-left {
+    margin-left: 50px; }
+  .dev-warp .dev-right {
+    margin-right: 50px; } }
 @media screen and (max-width: 640px) {
   header nav {
     float: none;
@@ -334,6 +345,58 @@ footer {
   .dev-warp .post {
     color: #c0392b;
     text-align: center; } }
+@media screen and (max-width: 600px) {
+  header h1 {
+    padding-top: 0px;
+    font-size: 28px; } }
+.post-one {
+  background: #95a5a6; }
+
+.post-two {
+  background: #bdc3c7; }
+
+.dev-post {
+  width: 100%;
+  height: 500px; }
+  .dev-post .dev-wraper {
+    max-width: 800px;
+    margin: 0 auto; }
+    .dev-post .dev-wraper h2 {
+      padding-top: 10px;
+      margin-top: 0; }
+    .dev-post .dev-wraper .dev-post-right {
+      max-width: 400px;
+      float: left; }
+    .dev-post .dev-wraper .dev-post-left {
+      max-width: 400px;
+      float: left; }
+      .dev-post .dev-wraper .dev-post-left img {
+        max-width: 380px; }
+
+@media screen and (max-width: 800px) {
+  .dev-post {
+    height: auto; }
+    .dev-post .dev-wraper {
+      max-width: 750px;
+      margin: 0 auto; }
+      .dev-post .dev-wraper h2 {
+        text-align: center; }
+      .dev-post .dev-wraper h3 {
+        text-align: center; }
+      .dev-post .dev-wraper .dev-post-right {
+        max-width: 750px;
+        float: none; }
+        .dev-post .dev-wraper .dev-post-right p {
+          max-width: 500px;
+          margin: 0 auto; }
+      .dev-post .dev-wraper .dev-post-left {
+        max-width: 750px;
+        float: none; }
+        .dev-post .dev-wraper .dev-post-left img {
+          margin: 0 auto;
+          width: 100%;
+          display: block;
+          padding-bottom: 30px; } }
 .contact-info {
   background-color: #95a5a6; }
   .contact-info div {

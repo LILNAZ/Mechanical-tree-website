@@ -111,6 +111,7 @@
 					float: left
 					border-radius: 50%
 				p
+					/*fix IE*/
 					float: right
 					margin-left: 5px
 
@@ -187,6 +188,22 @@ footer
 			border: white solid 10px
 
 
+@media screen and (max-width: 1118px)
+	.game-warp
+
+		.game-left
+			margin-left: 50px
+
+		.game-right
+
+			margin-right: 50px
+	.dev-warp
+
+		.dev-left
+			margin-left: 50px
+
+		.dev-right
+			margin-right: 50px
 
 
 @media screen and (max-width: 640px)
@@ -246,3 +263,10 @@ footer
 		.post
 			color: $link-color
 			text-align: center
+
+@media screen and (max-width: 600px)
+	header
+		h1
+			padding-top: 0px
+			font:
+				size: 28px
