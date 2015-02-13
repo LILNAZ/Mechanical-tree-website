@@ -403,96 +403,93 @@ footer {
   .big-header h1 {
     padding-top: 0px;
     font-size: 28px; } }
-.aboutus-wrap {
+.aboutus-section-wraper {
   background: #bdc3c7;
   width: 100%;
-  display: inline-block; }
-  .aboutus-wrap h1 {
-    padding-top: 20px;
-    margin-top: 0; }
-  .aboutus-wrap .aboutus-left {
-    float: left;
-    margin-left: 100px;
-    width: 450px; }
-    .aboutus-wrap .aboutus-left .aboutus-headshot {
-      max-width: 450px; }
-      .aboutus-wrap .aboutus-left .aboutus-headshot img {
-        display: inline-block;
-        max-width: 100px;
-        max-height: 100px;
+  padding-bottom: 30px; }
+  .aboutus-section-wraper:after {
+    content: "";
+    display: table;
+    clear: both; }
+  .aboutus-section-wraper h1 {
+    margin-top: 0;
+    padding-top: 10px; }
+  .aboutus-section-wraper .aboutus-favicon-section {
+    max-width: 1000px;
+    margin: 0 auto; }
+    .aboutus-section-wraper .aboutus-favicon-section .aboutus-left {
+      max-width: 400px;
+      float: left;
+      margin-left: 50px; }
+      .aboutus-section-wraper .aboutus-favicon-section .aboutus-left .aboutus-headshot img {
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        float: left; }
+      .aboutus-section-wraper .aboutus-favicon-section .aboutus-left .aboutus-headshot .aboutus-name {
         float: left;
-        border-radius: 50%; }
-      .aboutus-wrap .aboutus-left .aboutus-headshot p {
-        max-width: 400px; }
-  .aboutus-wrap .aboutus-right {
-    float: right;
-    margin-right: 100px;
-    width: 450px; }
-    .aboutus-wrap .aboutus-right .aboutus-headshot {
-      max-width: 450px; }
-      .aboutus-wrap .aboutus-right .aboutus-headshot img {
-        display: inline-block;
-        max-width: 100px;
-        max-height: 100px;
+        padding-right: 168px;
+        margin-bottom: 56px; }
+        .aboutus-section-wraper .aboutus-favicon-section .aboutus-left .aboutus-headshot .aboutus-name p {
+          margin-bottom: 5px; }
+    .aboutus-section-wraper .aboutus-favicon-section .aboutus-right {
+      max-width: 400px;
+      float: right;
+      margin-right: 50px; }
+      .aboutus-section-wraper .aboutus-favicon-section .aboutus-right .aboutus-headshot img {
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        float: left; }
+      .aboutus-section-wraper .aboutus-favicon-section .aboutus-right .aboutus-headshot .aboutus-name {
         float: left;
-        border-radius: 50%; }
+        padding-right: 168px;
+        margin-bottom: 56px; }
+        .aboutus-section-wraper .aboutus-favicon-section .aboutus-right .aboutus-headshot .aboutus-name p {
+          margin-bottom: 5px; }
 
-.aboutgame-wrap {
-  background: #ecf0f1;
+.aboutgame-wraperaround {
+  background-color: #95a5a6;
   width: 100%;
-  display: inline-block; }
-  .aboutgame-wrap h1 {
-    padding-top: 20px;
-    margin-top: 0; }
-  .aboutgame-wrap .aboutgame-div1 {
-    margin-top: 30px;
-    margin-bottom: 30px;
-    width: 100%;
-    display: inline-block; }
-    .aboutgame-wrap .aboutgame-div1 img {
-      max-height: 250px;
-      float: left; }
-  .aboutgame-wrap .aboutgametext1 {
-    float: right;
-    max-width: 700px;
-    margin-right: 180px; }
-    .aboutgame-wrap .aboutgametext1 img {
-      max-height: 250px;
-      float: left; }
-  .aboutgame-wrap .aboutgametext2 {
-    float: right;
-    max-width: 700px;
-    margin-right: 180px; }
-
-@media screen and (max-width: 1120px) {
-  .aboutus-wrap .aboutus-left {
-    float: none;
+  padding-bottom: 30px; }
+  .aboutgame-wraperaround:after {
+    content: "";
+    display: table;
+    clear: both; }
+  .aboutgame-wraperaround h1 {
+    margin-top: 0;
+    padding-top: 30px; }
+  .aboutgame-wraperaround .about-games-section {
+    max-width: 1000px;
     margin: 0 auto; }
-    .aboutus-wrap .aboutus-left p {
-      max-width: 350px; }
-  .aboutus-wrap .aboutus-right {
-    float: none;
-    margin: 0 auto; }
-    .aboutus-wrap .aboutus-right p {
-      max-width: 350px; }
+    .aboutgame-wraperaround .about-games-section .aboutgame-left {
+      max-width: 400px;
+      float: left;
+      margin-left: 40px; }
+      .aboutgame-wraperaround .about-games-section .aboutgame-left img {
+        max-width: 400px; }
+    .aboutgame-wraperaround .about-games-section .aboutgame-right {
+      max-width: 400px;
+      float: right;
+      margin-right: 40px; }
+      .aboutgame-wraperaround .about-games-section .aboutgame-right img {
+        max-width: 400px; }
+      .aboutgame-wraperaround .about-games-section .aboutgame-right .aboutus-buynow {
+        background-color: #d65548;
+        padding: 6px 15px;
+        margin-left: 10px;
+        border-radius: 8px;
+        color: white;
+        font-size: 17px;
+        font-weight: 700;
+        -webkit-transition: 0.4s;
+        -moz-transition: 0.4s;
+        transition: 0.4s; }
+      .aboutgame-wraperaround .about-games-section .aboutgame-right .aboutus-buynow:hover {
+        background-color: #d14233;
+        color: #ccc; }
 
-  .aboutgame-wrap .aboutgame-div1 {
-    margin-left: 0; }
-    .aboutgame-wrap .aboutgame-div1 img {
-      margin: 0 auto;
-      max-height: 150px;
-      float: none; }
-  .aboutgame-wrap .aboutgametext1 {
-    float: none;
-    margin-right: 0; }
-    .aboutgame-wrap .aboutgametext1 img {
-      margin: 0 auto;
-      max-height: 150px;
-      float: none; }
-  .aboutgame-wrap .aboutgametext2 {
-    float: none;
-    max-width: 700px;
-    margin-right: 0; } }
+/*@media screen and (max-width: 1120px) */
 .post-one {
   background: #95a5a6; }
 
