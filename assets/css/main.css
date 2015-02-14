@@ -468,12 +468,31 @@ footer {
       margin-left: 40px; }
       .aboutgame-wraperaround .about-games-section .aboutgame-left img {
         max-width: 400px; }
+      .aboutgame-wraperaround .about-games-section .aboutgame-left a {
+        -webkit-transition: 0.4s;
+        -moz-transition: 0.4s;
+        transition: 0.4s; }
+      .aboutgame-wraperaround .about-games-section .aboutgame-left .aboutus-buynow {
+        background-color: #d65548;
+        padding: 6px 15px;
+        margin-left: 10px;
+        border-radius: 8px;
+        color: white;
+        font-size: 17px;
+        font-weight: 700; }
+      .aboutgame-wraperaround .about-games-section .aboutgame-left .aboutus-buynow:hover {
+        background-color: #d14233;
+        color: #ccc; }
     .aboutgame-wraperaround .about-games-section .aboutgame-right {
       max-width: 400px;
       float: right;
       margin-right: 40px; }
       .aboutgame-wraperaround .about-games-section .aboutgame-right img {
         max-width: 400px; }
+      .aboutgame-wraperaround .about-games-section .aboutgame-right a {
+        -webkit-transition: 0.4s;
+        -moz-transition: 0.4s;
+        transition: 0.4s; }
       .aboutgame-wraperaround .about-games-section .aboutgame-right .aboutus-buynow {
         background-color: #d65548;
         padding: 6px 15px;
@@ -489,7 +508,27 @@ footer {
         background-color: #d14233;
         color: #ccc; }
 
-/*@media screen and (max-width: 1120px) */
+@media screen and (max-width: 990px) {
+  .aboutus-section-wraper .aboutus-favicon-section {
+    margin: 0; }
+    .aboutus-section-wraper .aboutus-favicon-section .aboutus-left {
+      float: none;
+      margin: 0 auto; }
+    .aboutus-section-wraper .aboutus-favicon-section .aboutus-right {
+      float: none;
+      margin: 0 auto; } }
+@media screen and (max-width: 900px) {
+  .aboutgame-wraperaround {
+    padding-bottom: 40px; }
+    .aboutgame-wraperaround .about-games-section {
+      max-width: 1000px;
+      margin: 0 auto; }
+      .aboutgame-wraperaround .about-games-section .aboutgame-left {
+        float: none;
+        margin: 0 auto 30px; }
+      .aboutgame-wraperaround .about-games-section .aboutgame-right {
+        float: none;
+        margin: 0 auto 30px; } }
 .post-one {
   background: #95a5a6; }
 

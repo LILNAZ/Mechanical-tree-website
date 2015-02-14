@@ -76,6 +76,25 @@
 			img
 				max-width: 400px
 
+			a
+				@include transition(0.4s)
+
+			.aboutus-buynow
+				background-color: lighten($accent-color, 10%)
+				padding: 6px 15px
+				margin-left: 10px
+				border-radius: 8px
+				color: white
+				font:
+					size: 17px
+					weight: 700
+
+
+			.aboutus-buynow:hover
+				background-color: lighten($accent-color, 5%)
+				color: #ccc
+
+
 		.aboutgame-right
 			max-width: 400px
 			float: right
@@ -83,6 +102,9 @@
 
 			img
 				max-width: 400px
+
+			a
+				@include transition(0.4s)
 
 			.aboutus-buynow
 				background-color: lighten($accent-color, 10%)
@@ -99,4 +121,34 @@
 				background-color: lighten($accent-color, 5%)
 				color: #ccc
 
-/*@media screen and (max-width: 1120px)*/
+@media screen and (max-width: 990px)
+
+	.aboutus-section-wraper
+
+		.aboutus-favicon-section
+			margin: 0
+
+			.aboutus-left
+				float: none
+				margin: 0 auto
+
+			.aboutus-right
+				float: none
+				margin: 0 auto
+
+@media screen and (max-width: 900px)
+
+	.aboutgame-wraperaround
+		padding-bottom: 40px
+
+		.about-games-section
+			max-width: 1000px
+			margin: 0 auto
+
+			.aboutgame-left
+				float: none
+				margin: 0 auto 30px
+
+			.aboutgame-right
+				float: none
+				margin: 0 auto 30px
