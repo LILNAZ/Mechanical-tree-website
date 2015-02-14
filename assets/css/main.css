@@ -445,7 +445,32 @@ footer {
 @media screen and (max-width: 600px) {
   .big-header h1 {
     padding-top: 0px;
-    font-size: 28px; } }
+    font-size: 28px; }
+
+  .about-warp .about-wrap-with {
+    max-width: 450px; }
+    .about-warp .about-wrap-with .about-left {
+      max-width: 450px;
+      max-height: 800px;
+      display: inline-block;
+      float: none; }
+      .about-warp .about-wrap-with .about-left p {
+        max-width: 300px;
+        margin: 0 33px 20px; }
+    .about-warp .about-wrap-with .about-right {
+      max-width: 450px;
+      display: inline;
+      text-align: center; }
+      .about-warp .about-wrap-with .about-right .name-wrap {
+        float: none;
+        max-width: 100px;
+        padding: 0 117px 20px;
+        margin: 0 20px 0 0;
+        text-align: center; }
+        .about-warp .about-wrap-with .about-right .name-wrap p {
+          float: none;
+          margin: 0;
+          text-align: center; } }
 .aboutus-section-wraper {
   background: #bdc3c7;
   width: 100%;
