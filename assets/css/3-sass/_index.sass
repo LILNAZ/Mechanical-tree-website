@@ -74,13 +74,11 @@
 
 .about-warp
 	width: 100%
-	display: inline-block
 	background: $bg-color-1
 	margin: 0, auto
-	text-align: center
 
 	.about-wrap-with
-		width: 70%
+		max-width: 770px
 		display: block
 		margin: 0 auto
 
@@ -94,6 +92,9 @@
 			display: inline-block
 			float: left
 
+			h2
+				text-align: center
+
 			p
 				text-align: left
 				max-width: 500px
@@ -103,6 +104,7 @@
 			max-width: 250px
 			max-height: 800px
 			display: inline-block
+			margin-left: 20px
 
 			.name-wrap
 				float: left
@@ -194,6 +196,30 @@ footer
 
 
 @media screen and (max-width: 1118px)
+
+	.about-warp
+		.about-wrap-with
+			max-width: 700px
+
+			.about-left
+				max-width: 400px
+				max-height: 800px
+				display: inline-block
+				float: left
+
+				p
+					max-width: 400px
+
+
+			.about-right
+				max-width: 250px
+				max-height: 800px
+				margin-left: 20px
+
+				.name-wrap
+					float: left
+					max-width: 350px
+
 	.game-warp
 
 		.game-left
@@ -215,6 +241,38 @@ footer
 		h1
 			font:
 				size: 50px
+
+	.about-warp
+		.about-wrap-with
+			max-width: 600px
+
+			.about-left
+				max-width: 600px
+				max-height: 800px
+				display: inline-block
+				float: none
+				margin: 0 auto
+
+				p
+					max-width: 600px
+
+
+			.about-right
+				max-width: 600px
+				display: inline-flex
+				text-align: center
+
+				.name-wrap
+					float: none
+					max-width: 100px
+					padding-bottom: 30px
+					margin: 0 37px 0 0
+					text-align: center
+
+					p
+						float: none
+						margin: 0
+						text-align: center
 
 
 	.game-warp

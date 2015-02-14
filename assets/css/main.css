@@ -218,12 +218,10 @@ body {
 
 .about-warp {
   width: 100%;
-  display: inline-block;
   background: #ecf0f1;
-  margin: 0, auto;
-  text-align: center; }
+  margin: 0, auto; }
   .about-warp .about-wrap-with {
-    width: 70%;
+    max-width: 770px;
     display: block;
     margin: 0 auto; }
     .about-warp .about-wrap-with h1 {
@@ -234,6 +232,8 @@ body {
       max-height: 800px;
       display: inline-block;
       float: left; }
+      .about-warp .about-wrap-with .about-left h2 {
+        text-align: center; }
       .about-warp .about-wrap-with .about-left p {
         text-align: left;
         max-width: 500px;
@@ -241,7 +241,8 @@ body {
     .about-warp .about-wrap-with .about-right {
       max-width: 250px;
       max-height: 800px;
-      display: inline-block; }
+      display: inline-block;
+      margin-left: 20px; }
       .about-warp .about-wrap-with .about-right .name-wrap {
         float: left;
         margin: 20px 0;
@@ -319,6 +320,23 @@ footer {
       border: white solid 10px; }
 
 @media screen and (max-width: 1118px) {
+  .about-warp .about-wrap-with {
+    max-width: 700px; }
+    .about-warp .about-wrap-with .about-left {
+      max-width: 400px;
+      max-height: 800px;
+      display: inline-block;
+      float: left; }
+      .about-warp .about-wrap-with .about-left p {
+        max-width: 400px; }
+    .about-warp .about-wrap-with .about-right {
+      max-width: 250px;
+      max-height: 800px;
+      margin-left: 20px; }
+      .about-warp .about-wrap-with .about-right .name-wrap {
+        float: left;
+        max-width: 350px; }
+
   .game-warp .game-left {
     margin-left: 50px; }
   .game-warp .game-right {
@@ -331,6 +349,31 @@ footer {
 @media screen and (max-width: 820px) {
   .big-header h1 {
     font-size: 50px; }
+
+  .about-warp .about-wrap-with {
+    max-width: 600px; }
+    .about-warp .about-wrap-with .about-left {
+      max-width: 600px;
+      max-height: 800px;
+      display: inline-block;
+      float: none;
+      margin: 0 auto; }
+      .about-warp .about-wrap-with .about-left p {
+        max-width: 600px; }
+    .about-warp .about-wrap-with .about-right {
+      max-width: 600px;
+      display: inline-flex;
+      text-align: center; }
+      .about-warp .about-wrap-with .about-right .name-wrap {
+        float: none;
+        max-width: 100px;
+        padding-bottom: 30px;
+        margin: 0 37px 0 0;
+        text-align: center; }
+        .about-warp .about-wrap-with .about-right .name-wrap p {
+          float: none;
+          margin: 0;
+          text-align: center; }
 
   .game-warp .game-left {
     margin-left: 10px; }
