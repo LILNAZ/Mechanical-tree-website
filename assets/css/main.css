@@ -134,6 +134,35 @@ body {
     color: white;
     line-height: 1; }
 
+footer {
+  background-image: url("/assets/image/Hero.jpg");
+  background-size: cover;
+  background-position: 50% 50%;
+  padding-bottom: 50px; }
+  footer nav {
+    float: right;
+    padding: 30px 30px 0 0; }
+    footer nav a {
+      color: #c0392b;
+      display: inline-block;
+      margin-left: 20px;
+      font-size: 16px; }
+    footer nav a:hover, footer nav a:focus {
+      color: #df7c72; }
+  footer h1 {
+    text-align: center;
+    font-size: 42px;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 20px;
+    clear: both; }
+    footer h1 span {
+      display: inline-block;
+      padding: 0.2em 0.5em;
+      border: white solid 10px; }
+
 @media screen and (max-width: 840px) {
   .samll-header nav {
     float: none;
@@ -144,6 +173,15 @@ body {
   .samll-header h1 {
     padding-top: 0px;
     font-size: 42px; } }
+@media screen and (max-width: 350px) {
+  .samll-header nav a {
+    font-size: 16px; }
+  .samll-header h1 {
+    font-size: 32px; }
+
+  footer h1 {
+    font-size: 30px;
+    font-weight: 700; } }
 .big-header {
   -webkit-transition: 0.4s;
   -moz-transition: 0.4s;
@@ -289,35 +327,6 @@ body {
       max-width: 350px; }
     .dev-warp .dev-right p {
       margin-bottom: 40px; }
-
-footer {
-  background-image: url("/assets/image/Hero.jpg");
-  background-size: cover;
-  background-position: 50% 50%;
-  padding-bottom: 50px; }
-  footer nav {
-    float: right;
-    padding: 30px 30px 0 0; }
-    footer nav a {
-      color: #c0392b;
-      display: inline-block;
-      margin-left: 20px;
-      font-size: 16px; }
-    footer nav a:hover, footer nav a:focus {
-      color: #df7c72; }
-  footer h1 {
-    text-align: center;
-    font-size: 42px;
-    font-weight: 700;
-    color: white;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-    margin-bottom: 20px;
-    clear: both; }
-    footer h1 span {
-      display: inline-block;
-      padding: 0.2em 0.5em;
-      border: white solid 10px; }
 
 @media screen and (max-width: 1118px) {
   .about-warp .about-wrap-with {
@@ -471,6 +480,27 @@ footer {
           float: none;
           margin: 0;
           text-align: center; } }
+@media screen and (max-width: 350px) {
+  .big-header nav a {
+    font-size: 12px; }
+
+  .game-warp .game-left {
+    max-width: 350px; }
+    .game-warp .game-left img {
+      max-width: 300px; }
+  .game-warp .game-right {
+    max-width: 350px; }
+    .game-warp .game-right img {
+      max-width: 300px; }
+
+  .dev-warp .dev-left {
+    max-width: 350px; }
+    .dev-warp .dev-left img {
+      max-width: 300px; }
+  .dev-warp .dev-right {
+    max-width: 350px; }
+    .dev-warp .dev-right img {
+      max-width: 300px; } }
 .aboutus-section-wraper {
   background: #bdc3c7;
   width: 100%;
@@ -597,6 +627,16 @@ footer {
       .aboutgame-wraperaround .about-games-section .aboutgame-right {
         float: none;
         margin: 0 auto 30px; } }
+@media screen and (max-width: 420px) {
+  .aboutus-section-wraper .aboutus-favicon-section .aboutus-left .aboutus-headshot p {
+    max-width: 300px; }
+  .aboutus-section-wraper .aboutus-favicon-section .aboutus-right .aboutus-headshot p {
+    max-width: 300px; } }
+@media screen and (max-width: 350px) {
+  .aboutgame-wraperaround .about-games-section .aboutgame-left img {
+    max-width: 300px; }
+  .aboutgame-wraperaround .about-games-section .aboutgame-right img {
+    max-width: 300px; } }
 .post-one {
   background: #95a5a6; }
 

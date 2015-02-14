@@ -44,6 +44,42 @@
 		color: white
 		line-height: 1
 
+footer
+	background:
+		image: url("/assets/image/Hero.jpg")
+		size: cover
+		position: 50% 50%
+	padding-bottom: 50px
+
+	nav
+		float: right
+		padding: 30px 30px 0 0
+
+		a
+			color: $link-color
+			display: inline-block
+			margin-left: 20px
+			font-size: 16px
+
+		a:hover, a:focus
+			color: lighten($link-color, 20%)
+
+	h1
+		text-align: center
+		font:
+			size: 42px
+			weight: 700
+		color: white
+		text-transform: uppercase
+		letter-spacing: 0.05em
+		margin-bottom: 20px
+		clear: both
+
+		span
+			display: inline-block
+			padding: 0.2em 0.5em
+			border: white solid 10px
+
 
 @media screen and (max-width: 840px)
 	.samll-header
@@ -59,3 +95,20 @@
 			padding-top: 0px
 			font:
 				size: 42px
+
+@media screen and (max-width: 350px)
+	.samll-header
+		nav
+			a
+				font-size: 16px
+
+		h1
+			font:
+				size: 32px
+
+	footer
+
+		h1
+			font:
+				size: 30px
+				weight: 700
